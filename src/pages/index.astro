@@ -1,0 +1,70 @@
+---
+import '@/styles/main.css';
+---
+
+<html lang='en'>
+	<head>
+		<meta charset='utf-8' />
+		<link
+			rel='icon'
+			type='image/svg+xml'
+			href='/favicon.svg'
+		/>
+		<meta
+			name='viewport'
+			content='width=device-width'
+		/>
+		<meta
+			name='generator'
+			content={Astro.generator}
+		/>
+		<title>3D Scroll Animation Demo</title>
+		<link
+			rel='preconnect'
+			href='https://fonts.googleapis.com'
+		/>
+		<link
+			rel='preconnect'
+			href='https://fonts.gstatic.com'
+			crossorigin
+		/>
+		<link
+			href='https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap'
+			rel='stylesheet'
+		/>
+	</head>
+	<body>
+		<canvas class='webgl'></canvas>
+
+		<section class='section section-1'>
+			<h1 class='title'>3D Scroll Animation</h1>
+		</section>
+
+		<section class='section section-2'>
+			<div class='section__inner'>
+				<div class='section__title-container'>
+					<h2 class='section__title'>Making scrolling feel alive</h2>
+				</div>
+				<div class='section__content'>
+					<div class='section__text'>
+						<p>
+							Scroll-driven 3D animations bring the scene to life in real time,
+							making the experience feel smooth and responsive. Shadows are soft
+							and fully dynamic - no lightmaps - so everything stays interactive
+							and reactive, even as the objects moves.
+						</p>
+					</div>
+					<div class='section__actions'>
+						<button class='button__component type--primary'>
+							<div class='button__text-container'>
+								<span class='button__text'>Explore More</span>
+							</div>
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<script src='../scripts/main.js'></script>
+	</body>
+</html>

@@ -1,0 +1,18 @@
+{
+	"name": "3d-scroll-demo",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"astro": "^5.12.3",
+		"gsap": "^3.13.0",
+		"lenis": "^1.3.8",
+		"lil-gui": "^0.20.0",
+		"three": "^0.178.0"
+	}
+}
